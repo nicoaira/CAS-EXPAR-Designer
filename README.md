@@ -3,8 +3,7 @@
 ___
 
 
-![Alt text](logo/logo.png?raw=true "Logo")
-
+![alt text](https://github.com/nicoaira/CAS-EXPAR-Designer/blob/main/img/logo.png?raw=true "Logo")
 ___
 
 EXPAR (EXPonential Amplification Reaction) is an isothermal amplification reaction first described by Jeffrey Van Ness et. al in 2003 ([Link](https://www.pnas.org/doi/10.1073/pnas.0730811100)).
@@ -18,7 +17,7 @@ Also, some implementations make use of the CRISPR-CAS technology to recognize th
 
 The mechanism for this implementation is summarized in the following figure:
 
-![Alt text](logo/mechanism.png?raw=true "Logo")
+![alt text](https://github.com/nicoaira/CAS-EXPAR-Designer/blob/main/img/mechanism.png?raw=true "Mechanism")
 
 ___
 
