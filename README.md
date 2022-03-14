@@ -35,7 +35,7 @@ If the user has an specific target region, the pipeline will start in step 3.
 
 3. PAM sequences (needed for CAS binding) are found and flanking regions are stored in a dataset.
 
-4. The sequences obtained in step 3 are analyzed for the possible formation of hairpins with a bot that uses [UNAFOld](http://www.unafold.org/Dinamelt/applications/quickfold.php). The thermodynamics parameters of each sequence (number of structures, melting temperature and ΔG) are stored in the dataset.
+4. The sequences obtained in step 3 are analyzed for the possible formation of hairpins with a bot that uses [UNAFold](http://www.unafold.org/Dinamelt/applications/quickfold.php). The thermodynamics parameters of each sequence (number of structures, melting temperature and ΔG) are stored in the dataset.
 
 5. The sequences are then analyzed for the formation of self-dimers with a bot that uses the [OligoAnalyzer](https://www.idtdna.com/pages/tools/oligoanalyzer) (IDT). Again, the thermodynamics parameters of the sequences are stored in the dataset.
 
