@@ -50,11 +50,11 @@ Then, a short-list of the sequences classified as well perfoming by these models
 
 ___
 
-Accuracy of classifiers used in this pipeline*:
+Accuracy of classifiers used in this pipeline:
 
-|             | SMV   | Naïve Bayes | Deep-EXPAR |
+|             | SMV   | Naïve Bayes | Deep-EXPAR* |
 |-------------|:-----:|:----------:|:----------:|
 | Sensitivity | 67.7% | 70.6%       | 83.3%      |
 | Specificity | 80.4% | 77.5%       | 88.2%      |
 
-*Deep-EXPAR still being improved, so the accuracy of this model could improve in the future.
+*Deep-EXPAR is still being improved, so the accuracy of this model could improve in the future.
