@@ -37,7 +37,7 @@ If the user has an specific target region, the pipeline will start in step 3.
 
 4. The sequences obtained in step 3 are analyzed for the possible formation of hairpins with a bot that uses [UNAFOld](http://www.unafold.org/Dinamelt/applications/quickfold.php). The thermodynamics parameters of each sequence (number of structures, melting temperature and ΔG) are stored in the dataset.
 
-5. The sequences are then analyzed for the formation of self-dimers with a bot that uses the [OligoAnalizer](https://www.idtdna.com/pages/tools/oligoanalyzer) (IDT). Again, the thermodynamics parameters of the sequences are stored in the dataset.
+5. The sequences are then analyzed for the formation of self-dimers with a bot that uses the [OligoAnalyzer](https://www.idtdna.com/pages/tools/oligoanalyzer) (IDT). Again, the thermodynamics parameters of the sequences are stored in the dataset.
 
 6. The best sequences are then analyzed by three different classifiers:
 
@@ -54,7 +54,7 @@ Accuracy of classifiers used in this pipeline:
 
 |             | SMV   | Naïve Bayes | Deep-EXPAR* |
 |-------------|:-----:|:----------:|:----------:|
-| Sensitivity | 67.7% | 70.6%       | 83.3%      |
-| Specificity | 80.4% | 77.5%       | 88.2%      |
+| Sensitivity | 67.7% | 70.6%       | 87.3%      |
+| Specificity | 80.4% | 77.5%       | 90.2%      |
 
 *Deep-EXPAR is still being improved, so the accuracy of this model could improve in the future.
