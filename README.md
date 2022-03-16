@@ -21,7 +21,7 @@ The mechanism for this implementation is summarized in the following figure:
 
 ___
 
-The main drawback of EXPAR is the high background amplification, produced by the nonspecific trigger of the reaction. A well performing design is the one in which the positive sample amplifies in a relative short time, and the negative sample (no template control) yields a signal after a long time. A study have found that a good design of the Template X'-X' is key for obtaining a well performing reaction ([Jifeng Qian et al, 2012](https://pubmed.ncbi.nlm.nih.gov/22416064/)). In this paper, the authors measure the performance of 384 templaete-X'-X' to create a dataset that is later used for training two different classifiers. One based is based on a SVM using a position weight matrix and the other uses a RELIEF attribute evaluation with Naïve Bayes classification.
+The main drawback of EXPAR is its high background amplification, produced by the nonspecific trigger of the reaction. A well performing design is the one in which the positive sample amplifies in a relative short time, and the negative sample (no template control) yields a signal after a long time. A study have found that a good design of the Template X'-X' is key for obtaining a well performing reaction ([Jifeng Qian et al, 2012](https://pubmed.ncbi.nlm.nih.gov/22416064/)). In this paper, the authors measured the performance of 384 templaete-X'-X' to create a dataset that was later used for training two different classifiers. One based is based on a SVM using a position weight matrix and the other uses a RELIEF attribute evaluation with Naïve Bayes classification.
 
 ___
 
@@ -29,15 +29,15 @@ Herein, we generated a pipeline for designing optimal Template-X'-X' sequences.
 
 If the user has an specific target region, the pipeline will start in step 3.
 
-1. The user inputs the sequences which will be considered as the target of the reaction. The sequences are aligned and gaps are removed (Gblocks).
+1. The user inputs the sequences which will be considered as the target of the reaction. The sequences are aligned and gaps are removed.
 
 2. Once conserved regions are found within the alignment, variable regions are filtered out (as they would not be good as targets).
 
 3. PAM sequences (needed for CAS binding) are found and flanking regions are stored in a dataset.
 
-4. The sequences obtained in step 3 are analyzed for the possible formation of hairpins with a bot that uses [UNAFold](http://www.unafold.org/Dinamelt/applications/quickfold.php). The thermodynamics parameters of each sequence (number of structures, melting temperature and ΔG) are stored in the dataset.
+4. The sequences obtained in step 3 are analyzed for the possible formation of hairpins with a bot that uses [UNAFold](http://www.unafold.org/Dinamelt/applications/quickfold.php). The thermodynamic parameters of each sequence (number of structures, melting temperature and ΔG) are stored in the dataset.
 
-5. The sequences are then analyzed for the formation of self-dimers with a bot that uses the [OligoAnalyzer](https://www.idtdna.com/pages/tools/oligoanalyzer) (IDT). Again, the thermodynamics parameters of the sequences are stored in the dataset.
+5. The sequences are then analyzed for the formation of self-dimers with a bot that uses the [OligoAnalyzer](https://www.idtdna.com/pages/tools/oligoanalyzer) (IDT). Again, the thermodynamic parameters of the sequences are stored in the dataset.
 
 6. The best sequences are then analyzed by three different classifiers:
 
