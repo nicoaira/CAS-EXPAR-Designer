@@ -6,7 +6,7 @@ ___
 ![alt text](https://github.com/nicoaira/CAS-EXPAR-Designer/blob/main/img/logo.png?raw=true "Logo")
 ___
 
-EXPAR (EXPonential Amplification Reaction) is an isothermal amplification reaction first described by Jeffrey Van Ness et al. in 2003 ([Link](https://www.pnas.org/doi/10.1073/pnas.0730811100)).
+EXPAR (EXPonential Amplification Reaction) is an isothermal amplification reaction first described by [Jeffrey Van Ness et al in 2003](https://www.pnas.org/doi/10.1073/pnas.0730811100).
 
 The reaction start when a sequence termed "trigger-X" is present in the sample, which hybridizes to the complementary sequence called Template-X'-X'. This creates and exponential amplification loop in which this trigger-X sequence get amplified in a short amount of time.
 
