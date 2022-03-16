@@ -57,4 +57,4 @@ Accuracy of classifiers used in this pipeline:
 | Sensitivity | 67.7% | 70.6%       | 87.3%      |
 | Specificity | 80.4% | 77.5%       | 90.2%      |
 
-*Deep-EXPAR is still being improved, so the accuracy of this model could improve in the future.
+*Deep-EXPAR is still being improved, so the accuracy of this model could increase in the future.
